@@ -1,0 +1,188 @@
+body  {
+    background-color: #19192C;
+    padding: 0;
+    margin: 0;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+
+.container {
+    align-items: center;
+    background-color:rgb(35, 36, 59);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    height: 65vh;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    width: 50%;
+    
+}
+
+.container-2 {
+    border-radius: 6px;
+    border: 1px solid #474F66;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 3rem;
+    margin-right: .3rem;
+    margin-bottom: 7rem;
+    padding-bottom: 3rem;
+   
+}
+
+.container-3 {
+  
+    max-width: 100%;
+    width: 450px;
+    height: 350px;
+
+}
+
+.container-4 {
+    display: flex;
+    margin-left: 2rem;
+   
+}
+
+.container-4 input {
+    width: 182px;
+    margin-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+.trabalho {
+    margin-top: .7rem;
+    margin-left: 2rem;
+}
+
+.trabalho input {
+    margin-top: .6rem;
+    padding: .8rem;
+}
+
+.localizacao {
+    display: flex;
+    width: 183px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.localizacao select {
+    padding: .9rem;
+    border-radius: 3px;
+}
+
+.localizacao input {
+    margin-top: 1.2rem;
+    height: 30px;
+    padding: .5rem;
+    margin-left: 2rem;
+    width: 195px;
+}
+
+input {
+    font-family: 'Crimson Text', serif;
+    color: white;
+    display: block;
+}
+.spam {
+    color: #4484BF;
+    font-weight: bold;
+    position: relative;
+    bottom: 1rem;
+ 
+}
+label {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.campos {
+    background-color: transparent;
+    border-radius: 5px;
+    outline-style: none;
+    border: 1px solid #474F66;
+    padding: 9px;
+}
+
+
+.campos-2{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #474F66;
+    width: 399px;
+    padding: .5rem;
+}
+
+.campos-3 {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #474F66;
+    width: 399px;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+.select {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 203px;
+    background-color: transparent;
+    border: 1px solid #474F66;
+
+}
+
+select {
+    display: block;
+}
+.titulo {
+    color: aliceblue;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 6rem
+    
+}
+
+.posicao-botao {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 2rem;
+    left: 1.3rem;
+   
+}
+
+.botao_1 {
+    margin-right: 1rem;
+    border-radius: 6px;
+    background-color: #19192C;
+    border: 1px solid #474F66;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    
+}
+
+.botao_2 {
+    margin-right: 1rem;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #474F66;
+    color: #19192C;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}

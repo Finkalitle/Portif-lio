@@ -1,0 +1,160 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F5F8FF;
+}
+
+.container {
+    background-color:rgba(255, 255, 255, 1)
+}
+
+.flex-cointainer {
+    border-radius: 30px;
+    background-color:rgba(255, 255, 255, .7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    vertical-align: center;
+    width: 1098px;
+    height: 544px;
+    align-items: center;
+    vertical-align: center;
+}
+
+.principal {
+    margin-left: 3rem;
+    height: 276px;
+    width: 364px;
+    
+}
+
+.titulo {
+    font-family: 'Merriweather', serif;
+    color: #141843;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 1rem;
+}
+.preco{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 62px;
+    margin-top: 2rem;
+}
+
+.preco span {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.sub-descricao {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #141843;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.descricao {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 276px;
+    color: #141843;
+    font-size: 20px;
+    margin-top: 2rem;
+    font-weight: bold;
+
+}
+
+.botao-1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #EDBBFF;
+    color:#000000 ;
+    height: 66px;
+    margin-top: 2rem;
+    width: 144px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.botao-1:hover {
+    background-color: #dc8ef8;
+}
+
+.botao-2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #AEF1F5;
+    margin-top: 2rem;
+    width: 144px;
+    height: 66px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.botao-2:hover {
+    background-color:#00dde9 ;
+}
+
+.botao-3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #FFDDB6;
+    margin-top: 2rem;
+    width: 144px;
+    height: 66px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.botao-3:hover {
+    background-color:#ffbe73;
+}
+
+.elipse-1 {
+    position: absolute;
+    border-radius: 100%;
+    background-color: #C6FCFF;
+    width: 528px;
+    height: 528px;
+    top: 18px;
+    left: 396px;
+    filter: blur(60px);
+
+}
+
+.elipse-2 {
+    position: fixed;
+    border-radius: 100%;
+    background-color:rgba(237, 187, 255, 0.45);
+    filter: blur(60px);
+    width: 1000px;
+    height: 1000px;
+    left: -130px;
+    top: 316px;
+}
+
+.elipse-3 {
+    border-radius: 100%;
+    position: absolute;
+    top: 90px;
+    left: 1073px;
+    width: 624px;
+    height: 624px;
+    background-color: rgba(255, 221, 182, .60);
+    filter: blur(60px);
+}
