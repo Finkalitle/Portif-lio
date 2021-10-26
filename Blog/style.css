@@ -1,0 +1,171 @@
+body {
+    background-color: #8442D6;
+    height: 100vh;
+    width: 100vh;
+}
+
+
+.main {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 1600px;
+}
+
+.text {
+    background-color: #8442D6;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1px 8px;
+}
+
+.titulo__principal {
+    color: #10153A;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    margin-top: 15px;
+}
+
+.topo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+}
+
+.descricao__principal {
+    color: #8442D6;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    height: 72px;
+    margin-top: 25px;
+    text-align: center;
+    width: 700px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 60px;
+}
+
+.box__universo {
+    height: 449px;
+    width: 725px;
+}
+
+.universo {
+    height: 449px;
+    width: 725px;
+    border-radius: 20px;
+}
+
+.universo:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.descricao__universo a{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Merriweather', sans-serif;
+    left: 300px;
+    height: 138px;
+    position: absolute;
+    top: 600px;
+    text-decoration: none;
+    width: 550px;
+    transition: 500ms;
+}
+
+.descricao__universo a:hover {
+    text-decoration: underline;
+}
+
+.box__café {
+    align-items: center;
+    box-shadow: 0 5px 15px -5px #263238;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 449px;
+    margin-left: 15px;
+    width: 350px;
+
+}
+
+.cafe {
+   height: 170px;
+   width: 350px; 
+   border-radius: 20px 20px 0px 0px;
+}
+
+.cafe:hover {
+    opacity: .8;
+}
+
+.titulo__cafe {
+    color: #10153A;
+    background-color: #ffffff;
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Merriweather', sans-serif;
+    height: 72px;
+    margin-top: 30px;
+    width: 290px;
+    transition: 1s;
+}
+
+.titulo__cafe a {
+    color: #10153A;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.titulo__cafe a:hover {
+    text-decoration: underline;
+}
+
+
+.descricao__cafe {
+    color: #10153A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    width: 290px;
+    height: 120px;
+}
+
+.botao {
+    background-color: #663C9A;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    height: 60px;
+    margin-top: 33px;
+    width: 229px;
+    transition: 500ms;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #4b1e81;
+}
